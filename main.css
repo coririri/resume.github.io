@@ -1,0 +1,63 @@
+h1 {
+  font-size: 5rem;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 4rem 0 2rem;
+}
+
+h3 {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+h5 {
+  font-size: 1.3rem;
+  color: #333;
+  margin: 1rem 0;
+}
+
+.big-paragraph {
+  font-size: 2rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 0;
+}
+
+li:before {
+  content: "\2022"; /* 유니코드에서는 점 기호의 코드를 사용합니다 */
+  color: #ff0000; /* 색상을 원하는 색으로 지정합니다 */
+  display: inline-block;
+  width: 1em; /* 점의 너비 조절, 필요에 따라 조절하세요 */
+  margin-left: -1em; /* 점의 위치를 아이템 내부에 조절합니다 */
+}
+
+.containor {
+  width: 100%;
+  max-width: 50rem;
+  margin: 4rem auto;
+
+}
+
+.row {
+  display: flex;
+}
+
+.row-left {
+  flex-shrink: 0;
+  margin-right: 5rem;
+}
+
+.row-right {
+  flex-shrink: 0;
+}
+
+.role {
+  display: block;
+}
